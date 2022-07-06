@@ -10,6 +10,7 @@ function HomePage() {
   return (
     <>
       <Head>
+        <meta name="keywords" content="full-stack,fullstack,arthur,arthur-rs,reis,desenvolvedor,programador" />
         <meta property="og:title" content="Desenvolvedor Arthur Reis" />
         <meta property="og:site_name" content="Desenvolvedor Arthur Reis" />
         <meta property="og:url" content="https://arthurreis.dev" />
@@ -23,7 +24,7 @@ function HomePage() {
           name="description"
           content="Olá, meu nome é Arthur Reis e eu sou desenvolvedor Full-Stack, conheça mais um pouco sobre min acessando o meu site."
         />
-        <title>Desenvolvedor Arthur Reis</title>
+        <title>Desenvolvedor Full Stack - Arthur Reis</title>
       </Head>
       <Header />
       <IntroductionSection />

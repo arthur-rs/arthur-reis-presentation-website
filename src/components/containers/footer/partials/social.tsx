@@ -17,6 +17,7 @@ function Social() {
             <IconButton
               as="a"
               target="_blank"
+              rel="noopener"
               variant="ghost"
               aria-label="Ir para o meu Github"
             >
@@ -29,6 +30,7 @@ function Social() {
             <IconButton
               as="a"
               target="_blank"
+              rel="noopener"
               variant="ghost"
               aria-label="Ir para o meu LinkedIn"
             >
@@ -37,10 +39,14 @@ function Social() {
           </Link>
         </ListItem>
         <ListItem mr={["3", "3", "3", "6"]}>
-          <Link href="https://www.facebook.com/profile.php?id=100004350649471" passHref>
+          <Link
+            href="https://www.facebook.com/profile.php?id=100004350649471"
+            passHref
+          >
             <IconButton
               as="a"
               target="_blank"
+              rel="noopener"
               variant="ghost"
               aria-label="Ir para o meu Facebook"
             >
@@ -53,6 +59,7 @@ function Social() {
             <IconButton
               as="a"
               target="_blank"
+              rel="noopener"
               variant="ghost"
               aria-label="Ir para o meu Instagram"
             >
@@ -61,10 +68,14 @@ function Social() {
           </Link>
         </ListItem>
         <ListItem mr={["3", "3", "3", "6"]}>
-          <Link href="https://api.whatsapp.com/send?phone=5583988217608&text=Ol%C3%A1%2C%20estou%20interessado%20em%20em%20criar%20um%20projeto%20com%20voc%C3%AA." passHref>
+          <Link
+            href="https://api.whatsapp.com/send?phone=5583988217608&text=Ol%C3%A1%2C%20estou%20interessado%20em%20em%20criar%20um%20projeto%20com%20voc%C3%AA."
+            passHref
+          >
             <IconButton
               as="a"
               target="_blank"
+              rel="noopener"
               variant="ghost"
               aria-label="Ir para o meu WhatsApp"
             >

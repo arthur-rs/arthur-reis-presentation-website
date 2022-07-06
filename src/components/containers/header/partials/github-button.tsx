@@ -25,7 +25,8 @@ function GithubButton() {
       <HStack
         as="a"
         spacing="3"
-        target="__blank"
+        target="_blank"
+        rel="noopener"
         aria-label="Ir para o meu Github."
         transition="all .2s"
         _hover={{ opacity: 0.6 }}
