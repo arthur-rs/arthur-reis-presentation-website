@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meu site de apresentação.
 
-## Getting Started
+![Vercel](https://vercelbadge.vercel.app/api/arthur-rs/arthur-reis-presentation-website)
 
-First, run the development server:
+Com o intuito de falar um pouco mais sobre, minhas qualificações e experiencia, 
+desenvolvi o meu site de apresentação, seguindo um design moderno e voltada ao
+mundo da programação.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+No site foi utiliza as seguintes tecnologias:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### React.js
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Framework para o desenvolvimento de SPA (Single page application ou Aplicação de página única), 
+uma aplicação onde não há reload entre as páginas, deixando o site extremante 
+performático e aprimorando de uma forma incrível a experiencia do usuário.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Next.js 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Um framework para React.Js, onde com o Next é possível a geração de páginas 
+estáticas pelo lado do servidor, aprimorando ainda mais a performance e 
+auxiliando no SEO do site, pois agora não é mais necessário ter o Javascript 
+habilitado que a interface seja desenhada, pois a renderização é feito pelo lado 
+do servidor, onde após a renderização é enviado o HTML, CSS e JS já processado
+para o cliente.
 
-## Learn More
+### Chakra UI
 
-To learn more about Next.js, take a look at the following resources:
+Chakra UI é um framework de estilização, extremamente eficaz, sua aplicação deixa
+o desenvolvimento rápido e simples, além de oferecer componentes prontos e eficazes, 
+porém não sacrificando o design do site, como ocorre em alguns frameworks CSS, com o 
+Chakra você tem toda a liberdade de criar o seu design ou aproveitar o design padrão
+dos componentes do Chakra. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Hospedagem
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+o site foi hospedado na Vercel.
 
-## Deploy on Vercel
+## Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Desenvolvido por **Arthur**.

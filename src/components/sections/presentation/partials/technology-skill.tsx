@@ -2,6 +2,9 @@ import { Center, Icon, Tooltip } from "@chakra-ui/react";
 
 import Link from "next/link";
 
+import { logEvent, getAnalytics } from "firebase/analytics";
+import { app } from "@app/providers/firebase";
+
 import AwsIcon from "@app/assets/icons/aws.svg";
 import NextJsIcon from "@app/assets/icons/next.svg";
 import ReactIcon from "@app/assets/icons/react.svg";
@@ -10,6 +13,7 @@ import NodeJsIcon from "@app/assets/icons/nodejs.svg";
 import NestJsIcon from "@app/assets/icons/nestjs.svg";
 import AdonisJsIcon from "@app/assets/icons/adonisjs.svg";
 import ChakraIcon from "@app/assets/icons/chakra.svg";
+import { useCallback } from "react";
 
 const TechnologyIcons = {
   aws: {
@@ -59,6 +63,20 @@ export type TechnologySkillProps = {
 };
 
 function TechnologySkill({ technology }: TechnologySkillProps) {
+  const handleHoverButton = useCallback(() => {
+    const analytics = getAnalytics(app);
+    logEvent(analytics, "hover_technology_skill", {
+      technology: TechnologyIcons[technology].title,
+    });
+  }, [technology]);
+
+  const handleClickButton = useCallback(() => {
+    const analytics = getAnalytics(app);
+    logEvent(analytics, "click_technology_skill", {
+      technology: TechnologyIcons[technology].title,
+    });
+  }, [technology]);
+
   return (
     <Tooltip
       hasArrow
@@ -66,6 +84,8 @@ function TechnologySkill({ technology }: TechnologySkillProps) {
       bg="background.300"
       color="white"
       borderRadius="3"
+      onMouseEnter={handleHoverButton}
+      onClick={handleClickButton}
     >
       <Center
         bg="background.400"
@@ -77,7 +97,13 @@ function TechnologySkill({ technology }: TechnologySkillProps) {
         _hover={{ bg: "background.300" }}
       >
         <Link href={TechnologyIcons[technology].href} passHref>
-          <Center as="a" w="full" h="full" target="_blank">
+          <Center
+            as="a"
+            w="full"
+            h="full"
+            target="_blank"
+            aria-label={TechnologyIcons[technology].title}
+          >
             <Icon
               as={TechnologyIcons[technology].icon}
               w={["6", "6", "12"]}

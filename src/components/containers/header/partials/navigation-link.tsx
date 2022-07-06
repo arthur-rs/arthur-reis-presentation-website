@@ -8,7 +8,7 @@ export type NavigationLinkProps = LinkProps & {
 function NavigationLink({ children, ...props }: NavigationLinkProps) {
   return (
     <NextLink {...props} passHref>
-      <Link>{children}</Link>
+      <Link target="_self">{children}</Link>
     </NextLink>
   );
 }

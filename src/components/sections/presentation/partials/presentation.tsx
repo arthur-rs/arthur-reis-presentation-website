@@ -1,7 +1,7 @@
 import { Stack, Text, Heading, Flex } from "@chakra-ui/react";
 
-import CallMeWhatsapp from "@app/components/sections/introduction/partials/call-me-whatsapp";
-import Badge from "@app/components/sections/introduction/partials/badge";
+import CallMeWhatsapp from "@app/components/sections/presentation/partials/call-me-whatsapp";
+import Badge from "@app/components/sections/presentation/partials/badge";
 
 function Presentation() {
   return (
@@ -15,7 +15,7 @@ function Presentation() {
           </Heading>
           <Flex flexDir="column" >
             <Text opacity={0.65}>Desenvolvo código simple e funcional.</Text>
-            <Text opacity={0.65}>E eu amo o que eu faço.</Text>
+            <Text opacity={0.65}>Qualidade é o meu foco.</Text>
           </Flex>
         </Stack>
       </Stack>

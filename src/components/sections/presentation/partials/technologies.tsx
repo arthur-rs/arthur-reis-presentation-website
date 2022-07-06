@@ -1,6 +1,6 @@
 import { Stack, Grid, Text } from "@chakra-ui/react";
 
-import TechnologySkill from "@app/components/sections/introduction/partials/technology-skill";
+import TechnologySkill from "@app/components/sections/presentation/partials/technology-skill";
 
 function Technologies() {
   return (

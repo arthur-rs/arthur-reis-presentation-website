@@ -6,6 +6,7 @@ import { Sizes } from "@app/constants/theme/foundations/sizes";
 import { Config } from "@app/constants/theme/foundations/config";
 import { FontSizes } from "@app/constants/theme/foundations/font-sizes";
 import { Spaces } from "@app/constants/theme/foundations/spaces";
+import { Styles } from "@app/constants/theme/foundations/styles";
 
 // Components
 import { Container } from "@app/constants/theme/components/container";
@@ -24,6 +25,9 @@ const Theme = extendTheme({
   config: Config,
   fontSizes: FontSizes,
   space: Spaces,
+  styles: {
+    global: Styles,
+  },
   components: {
     Link,
     List,
@@ -31,7 +35,7 @@ const Theme = extendTheme({
     Button,
     Modal,
     Badge,
-    Heading
+    Heading,
   },
 });
 
