@@ -29,7 +29,7 @@ function TestimonialsSection() {
               Depoimentos
             </Heading>
             <Text fontSize="xs" opacity={0.65}>
-              O que meus clientes acham de min.
+              Opinião dos clientes sobre o meu trabalho.
             </Text>
           </Stack>
           <TestimonialCard />

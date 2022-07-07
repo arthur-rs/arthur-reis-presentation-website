@@ -92,7 +92,7 @@ function TechnologySkill({ technology }: TechnologySkillProps) {
         borderRadius="6px"
         transition="all .2s"
         cursor="pointer"
-        w={["16", "16", "24"]}
+        w={["14", "16", "24"]}
         h={["16", "16", "24"]}
         _hover={{ bg: "background.300" }}
       >

@@ -11,11 +11,11 @@ function Introduction() {
             Sempre pronto para tirar o seu projeto do papel.
           </Text>
           <Text fontSize="sm" opacity={0.65}>
-            Vou entregar o melhor de min pra o seu projeto, com atenção aos
+            Vou dar o meu melhor em seus projetos, com atenção aos
             detalhes e na qualidade geral do código e da infraestrutura, sempre
-            utilizando as melhores praticas de programação, como SOLID e
+            utilizando as melhores práticas de programação, como SOLID e
             hexagonal architecture com o intuito de entregar o melhor resultado
-            final para alavancar o seu projeto.
+            final, para assim então alavancar os seus projetos.
           </Text>
         </Stack>
       </Stack>
