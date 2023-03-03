@@ -94,6 +94,8 @@ export default class Document extends NextDocument {
           <meta name="msapplication-TileColor" content="#64F4AC" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#64F4AC" />
+          <meta name="konsent/website-id" content="6f27a2b3-6d0c-4670-8105-6ef539c1c608">
+          <script src="https://cdn.konsent.com.br/cookie.min.js"></script>
         </Head>
         <body>
           <ColorModeScript initialColorMode="dark" />
